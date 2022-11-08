@@ -1,0 +1,43 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LBFraudSDKiOS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+import CryptoKit
+import Foundation
+import IronchipCommonsIos
+@_exported import LBFraudSDKiOS
+import Swift
+import _Concurrency
+import _StringProcessing
+public struct TransactionError : Swift.Error {
+  public enum ErrorType {
+    case errorCode
+    public static func == (a: LBFraudSDKiOS.TransactionError.ErrorType, b: LBFraudSDKiOS.TransactionError.ErrorType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public let message: Swift.String
+  public let code: Swift.Int
+}
+public struct Codes {
+}
+public struct LBFraudSDK {
+  public init(apikey: Swift.String)
+  public init(apikey: Swift.String, url: Swift.String)
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], complete: @escaping (LBFraudSDKiOS.TransactionError?) -> ())
+}
+public class LBFraudSDKiOSService {
+  public init()
+  public func sendTransaction(url: Swift.String, transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], apiKey: Swift.String, complete: @escaping (LBFraudSDKiOS.TransactionError?) -> ())
+  public func getTransactionData() -> [Swift.String : Any?]
+  public func getTransactionJSON(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any]) throws -> Foundation.Data?
+  public func getGeoLocationInformation() -> [Swift.String : Any?]
+  public func getconnectedWifiInformation() -> [Swift.String : Any?]
+  public func getDeviceInformation() -> [Swift.String : Any?]
+  @objc deinit
+}
+extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
+extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
