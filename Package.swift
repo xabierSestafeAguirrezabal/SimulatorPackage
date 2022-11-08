@@ -20,11 +20,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
                   name: "IronchipCommonsIos",
-                  path: ".Sources/IronchipCommonsIos.xcframework"
+                  path: "Frameworks/IronchipCommonsIos.xcframework"
               ),
         .binaryTarget(
                   name: "LBFraudSDKiOS",
-                  path: ".Sources/LBFraudSDKiOS.xcframework"
+                  path: "Frameworks/LBFraudSDKiOS.xcframework"
               )
     ]
 )
