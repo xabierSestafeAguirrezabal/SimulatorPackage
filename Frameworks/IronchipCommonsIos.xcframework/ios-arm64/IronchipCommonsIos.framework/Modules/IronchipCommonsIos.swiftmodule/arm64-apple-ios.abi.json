@@ -1844,6 +1844,13 @@
         "moduleName": "IronchipCommonsIos"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos"
+      },
+      {
         "kind": "TypeDecl",
         "name": "GPSService",
         "printedName": "GPSService",
