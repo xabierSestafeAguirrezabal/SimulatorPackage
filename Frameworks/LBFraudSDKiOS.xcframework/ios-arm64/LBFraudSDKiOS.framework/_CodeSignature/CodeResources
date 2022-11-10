@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/IronchipCommonsIos.framework/Info.plist</key>
 		<data>
-		GDIX3NMsSfj/dEZPjH2ELncCZHU=
+		eLj+xLYLplWUybm7btz/dy4/otU=
 		</data>
 		<key>Frameworks/IronchipCommonsIos.framework/IronchipCommonsIos</key>
 		<data>
-		/1dKdDNcwgcdEAI9dXUDiKjMnIM=
+		AMIqM2ivIVCJrjntg3RY3XwpfxI=
 		</data>
 		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
 		<data>
-		6nmcnotVLl45O6hs0O/wJIwPRqg=
+		s+EuhRRUKZwz1I+7rDayWhrCZ/4=
 		</data>
 		<key>Headers/LBFraudSDKiOS-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rcq8+qqtJ8L9cRQ44/LdqS6POVw=
+		s5CkhTcNJDxjpItaKPk17OU2dt4=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		UL5VhnMsvdkkbYrmv/mKocZK5G0=
+		++BMwIu8hhOIqZOiOiRLgTjpUQo=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		oWUj00HsY+l7KRii2fkhNgrTKLY=
+		WwDjLYsR7/1xxA+4ijQkrHffbYo=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		UL5VhnMsvdkkbYrmv/mKocZK5G0=
+		++BMwIu8hhOIqZOiOiRLgTjpUQo=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		tlmxmaRWqv7eZnM+9Rl8qr5DW+I=
+		Moxrxl8ryEhHm+m3HbCOGqTr8oA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,21 +59,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cVFArwXkDsTs/K/JbiDsoiXvK3Jh45gNUwms8rfS3eQ=
+			+J/gRGDEP95BbJUfjWBUGMGOJeKMGJ7+GsI+foF/IIc=
 			</data>
 		</dict>
 		<key>Frameworks/IronchipCommonsIos.framework/IronchipCommonsIos</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			87Fgey8HIrHDgmgLgcBwx5fhaWNVTH8VI4fNdZNyVPM=
+			txVQ7Lu6YrTMdkT3p4GvGJa/iOr6fWvcwaxEfzVE/4M=
 			</data>
 		</dict>
 		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O8JmjPCsEMkJkNeZwTZgtgON+/iXwE5Mk/SVxLUX2MY=
+			kl/bq3a9AlMq+9DL8rv22Svf/Ebr0hY4bjW2TVus48U=
 			</data>
 		</dict>
 		<key>Headers/LBFraudSDKiOS-Swift.h</key>
@@ -101,28 +101,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sB+l+YGI9EpvrmTf88YFn4X4nMeaaZVtjr2yDTNb5nA=
+			x+VxfdplyoMD9+yJToaQ2NgR1aLhx6C10ItK6Ca70VU=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1hnK3XBocRR7Q+rJD1W/IJNy2LwN9YJApP5M970QJM=
+			MbFl7E9DjqtUTKje4y4tQs+HyaqqXLUx4h1F8ENk6bY=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sB+l+YGI9EpvrmTf88YFn4X4nMeaaZVtjr2yDTNb5nA=
+			x+VxfdplyoMD9+yJToaQ2NgR1aLhx6C10ItK6Ca70VU=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3YsV1Jd9a/FH0vOv87AvKMVBiv3VmHCeJsTU4wEZVVw=
+			m5nip+pFcHY5vPRQbJG+6D5+5bXTy9dOa6LZVxO6NF8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
