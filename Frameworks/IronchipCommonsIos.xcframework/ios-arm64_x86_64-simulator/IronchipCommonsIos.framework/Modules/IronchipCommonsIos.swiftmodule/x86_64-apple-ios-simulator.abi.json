@@ -941,6 +941,94 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "HTTPCode",
+            "printedName": "HTTPCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos12NetworkErrorV8HTTPCodeSivp",
+            "mangledName": "$s18IronchipCommonsIos12NetworkErrorV8HTTPCodeSivp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos12NetworkErrorV8HTTPCodeSivg",
+                "mangledName": "$s18IronchipCommonsIos12NetworkErrorV8HTTPCodeSivg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "traceabilityId",
+            "printedName": "traceabilityId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos12NetworkErrorV14traceabilityIdSSvp",
+            "mangledName": "$s18IronchipCommonsIos12NetworkErrorV14traceabilityIdSSvp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos12NetworkErrorV14traceabilityIdSSvg",
+                "mangledName": "$s18IronchipCommonsIos12NetworkErrorV14traceabilityIdSSvg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -2154,126 +2242,126 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 360,
       "length": 18,
       "value": "\"WIFI not enabled\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 360,
       "length": 18,
       "value": "\"WIFI not enabled\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 384,
+      "offset": 451,
       "length": 24,
       "value": "\"Location Handler error\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 516,
       "length": 33,
       "value": "\"Location permission not granted\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 514,
+      "offset": 581,
       "length": 23,
       "value": "\"Location not provided\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 571,
+      "offset": 638,
       "length": 72,
       "value": "\"When the authorization status is Not Determined, request authorization\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 384,
+      "offset": 451,
       "length": 24,
       "value": "\"Location Handler error\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 516,
       "length": 33,
       "value": "\"Location permission not granted\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 514,
+      "offset": 581,
       "length": 23,
       "value": "\"Location not provided\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 571,
+      "offset": 638,
       "length": 72,
       "value": "\"When the authorization status is Not Determined, request authorization\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 720,
+      "offset": 787,
       "length": 29,
       "value": "\"Conversion from JSON failed\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 720,
+      "offset": 787,
       "length": 29,
       "value": "\"Conversion from JSON failed\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 899,
       "length": 22,
       "value": "\"unknown architecture\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 950,
       "length": 32,
       "value": "\"Conversion from Data to String\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 948,
+      "offset": 1015,
       "length": 35,
       "value": "\"Error generatting installation ID\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 899,
       "length": 22,
       "value": "\"unknown architecture\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 950,
       "length": 32,
       "value": "\"Conversion from Data to String\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 948,
+      "offset": 1015,
       "length": 35,
       "value": "\"Error generatting installation ID\""
     }

@@ -19,6 +19,8 @@ public struct TransactionError : Swift.Error {
       get
     }
   }
+  public let traceability_id: Swift.String?
+  public let http_code: Swift.Int?
   public let message: Swift.String
   public let code: Swift.Int
 }
@@ -27,7 +29,7 @@ public struct Codes {
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, url: Swift.String)
-  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], complete: @escaping (LBFraudSDKiOS.TransactionError?) -> ())
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
 }
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
