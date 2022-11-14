@@ -419,6 +419,98 @@
         "kind": "TypeDecl",
         "name": "Codes",
         "printedName": "Codes",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "UNEXPECTED_ERROR",
+            "printedName": "UNEXPECTED_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivpZ",
+            "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivpZ",
+            "moduleName": "LBFraudSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivgZ",
+                "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivgZ",
+                "moduleName": "LBFraudSDKiOS",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivsZ",
+                "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivsZ",
+                "moduleName": "LBFraudSDKiOS",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivMZ",
+                "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSivMZ",
+                "moduleName": "LBFraudSDKiOS",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:13LBFraudSDKiOS5CodesV",
         "mangledName": "$s13LBFraudSDKiOS5CodesV",
@@ -655,7 +747,7 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/TransactionError.swift",
       "kind": "IntegerLiteral",
-      "offset": 411,
+      "offset": 418,
       "length": 2,
       "value": "1"
     }

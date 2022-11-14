@@ -25,6 +25,7 @@ public struct TransactionError : Swift.Error {
   public let code: Swift.Int
 }
 public struct Codes {
+  public static var UNEXPECTED_ERROR: Swift.Int
 }
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
