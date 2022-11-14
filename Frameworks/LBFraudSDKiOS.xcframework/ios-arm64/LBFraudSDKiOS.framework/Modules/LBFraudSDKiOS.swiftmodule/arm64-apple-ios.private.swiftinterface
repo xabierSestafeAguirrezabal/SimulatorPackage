@@ -29,15 +29,5 @@ public struct LBFraudSDK {
   public init(apikey: Swift.String, url: Swift.String)
   public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], complete: @escaping (LBFraudSDKiOS.TransactionError?) -> ())
 }
-public class LBFraudSDKiOSService {
-  public init()
-  public func sendTransaction(url: Swift.String, transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], apiKey: Swift.String, complete: @escaping (LBFraudSDKiOS.TransactionError?) -> ())
-  public func getTransactionData() -> [Swift.String : Any?]
-  public func getTransactionJSON(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any]) throws -> Foundation.Data?
-  public func getGeoLocationInformation() -> [Swift.String : Any?]
-  public func getconnectedWifiInformation() -> [Swift.String : Any?]
-  public func getDeviceInformation() -> [Swift.String : Any?]
-  @objc deinit
-}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}

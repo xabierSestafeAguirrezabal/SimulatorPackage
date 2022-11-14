@@ -59,6 +59,7 @@ public enum GPSServiceError : Swift.String, Swift.Error {
   case HandlerError
   case LocationPermissionNotGranted
   case LocationNotProvided
+  case LocationNotDetermined
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
