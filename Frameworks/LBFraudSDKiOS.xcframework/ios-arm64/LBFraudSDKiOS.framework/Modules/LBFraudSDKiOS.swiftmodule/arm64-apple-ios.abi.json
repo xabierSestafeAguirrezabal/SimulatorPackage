@@ -672,7 +672,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error) -> ()",
+                "printedName": "(LBFraudSDKiOS.TransactionError) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -681,9 +681,9 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "Swift.Error",
-                    "usr": "s:s5ErrorP"
+                    "name": "TransactionError",
+                    "printedName": "LBFraudSDKiOS.TransactionError",
+                    "usr": "s:13LBFraudSDKiOS16TransactionErrorV"
                   }
                 ],
                 "typeAttributes": [
@@ -692,8 +692,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A3SDKV15sendTransaction13transactionId04userH09extraData6finish7onErrorySS_SSSDySSypGyyXEys0N0_pXEtF",
-            "mangledName": "$s13LBFraudSDKiOS0A3SDKV15sendTransaction13transactionId04userH09extraData6finish7onErrorySS_SSSDySSypGyyXEys0N0_pXEtF",
+            "usr": "s:13LBFraudSDKiOS0A3SDKV15sendTransaction13transactionId04userH09extraData6finish7onErrorySS_SSSDySSypGyyXEyAA0fN0VXEtF",
+            "mangledName": "$s13LBFraudSDKiOS0A3SDKV15sendTransaction13transactionId04userH09extraData6finish7onErrorySS_SSSDySSypGyyXEyAA0fN0VXEtF",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "AccessControl"

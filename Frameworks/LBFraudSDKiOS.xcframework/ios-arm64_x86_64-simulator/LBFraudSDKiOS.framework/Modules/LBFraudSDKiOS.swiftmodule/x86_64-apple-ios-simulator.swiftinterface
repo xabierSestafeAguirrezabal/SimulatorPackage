@@ -30,7 +30,7 @@ public struct Codes {
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, url: Swift.String)
-  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (LBFraudSDKiOS.TransactionError) -> ())
 }
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
