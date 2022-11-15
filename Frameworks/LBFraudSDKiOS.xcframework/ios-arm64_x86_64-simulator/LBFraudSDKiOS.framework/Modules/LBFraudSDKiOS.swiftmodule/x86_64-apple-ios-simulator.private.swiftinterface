@@ -22,15 +22,15 @@ public struct TransactionError : Swift.Error {
   public let traceability_id: Swift.String?
   public let http_code: Swift.Int?
   public let message: Swift.String
-  public let code: Swift.Int
+  public let code: Swift.String
 }
 public struct Codes {
-  public static var UNEXPECTED_ERROR: Swift.Int
+  public static var UNEXPECTED_ERROR: Swift.String
 }
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, url: Swift.String)
-  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (LBFraudSDKiOS.TransactionError) -> ())
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
 }
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}

@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/IronchipCommonsIos.framework/IronchipCommonsIos</key>
 		<data>
-		btf0nbmZ3Ia4mP+ttA+Gjf8Dw7Q=
+		aFDL4d1f0i7attVFBoMJmSsBYOM=
 		</data>
 		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		m390jOtX+/hSHqp59196Kej5Zm4=
+		7jfvFau8PJbUKG/QY6bEEOR4Q7o=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		WEbIQB/67RM8AUj3h5uWua/Mh/c=
+		qAgF/tH17I/kVsuNB5aB5zWqQi0=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WEbIQB/67RM8AUj3h5uWua/Mh/c=
+		qAgF/tH17I/kVsuNB5aB5zWqQi0=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wGYvLKJXshNFkm4tKDsudtvlPpc=
+		EdSbHpT5wPvVzcXjj9sod9YfLsM=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		m390jOtX+/hSHqp59196Kej5Zm4=
+		7jfvFau8PJbUKG/QY6bEEOR4Q7o=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VynQuq0fDsEWGrGx9iEF28ZVL9E=
+		iKM4Q9yG2OGt7Z1fbwJNEKGxG5A=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VynQuq0fDsEWGrGx9iEF28ZVL9E=
+		iKM4Q9yG2OGt7Z1fbwJNEKGxG5A=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OqboeBJGDWmYY3fCaN3SZiBudw8=
+		cRQ0o5J3LBy2RIfhs6eqSXnnJNE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/ll0fp3rhLvprU5JXAyMZYAYBVOEUqfna2xK6Y4zlA=
+			FGkOOx48BbWRTl2M2fINnJ79yesC57zc8g4YXHNVTIM=
 			</data>
 		</dict>
 		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
@@ -114,14 +114,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6mT0LNrp6tkmOkYrNgtTdxHFgvw19IT3IJpChx+Q3EU=
+			P2nNM+kM91mugwwWuKp19FTJbpMLi5eRxGHcuD2S1fo=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3RWy810ipjYT3vBlXnPG8UJzxswD5Y7JIE35j04wI9Y=
+			PcB7FyeLLDhjH4OAvRebr6sNiwW6w5hjBAFVqRZnQ84=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -135,28 +135,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3RWy810ipjYT3vBlXnPG8UJzxswD5Y7JIE35j04wI9Y=
+			PcB7FyeLLDhjH4OAvRebr6sNiwW6w5hjBAFVqRZnQ84=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nn+0sL2YBNNx+slIR+F2hAMuQ0LT0u58HEFpRJXBWuQ=
+			EU/WTr1l1x3q7sFHtZ/GCIu7iEB65vgcOm9e3Yo+HOg=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6mT0LNrp6tkmOkYrNgtTdxHFgvw19IT3IJpChx+Q3EU=
+			P2nNM+kM91mugwwWuKp19FTJbpMLi5eRxGHcuD2S1fo=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BvDl/yQ7hPCDJfbdV0wdQlPMB9xpOSyuDgQkZ2199A=
+			WoK8Fgw0Pme+A50Q2tVr93dWpP6dpbs2VQuENwlFtlA=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BvDl/yQ7hPCDJfbdV0wdQlPMB9xpOSyuDgQkZ2199A=
+			WoK8Fgw0Pme+A50Q2tVr93dWpP6dpbs2VQuENwlFtlA=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2byzxVn/HyL93Oye/ra95x3j55D5lkN0PfLQWIi9khw=
+			yjp3Cprag8MEeKyv9tSOOOEh+iAxZ8gAPPYc0gwNgzA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
