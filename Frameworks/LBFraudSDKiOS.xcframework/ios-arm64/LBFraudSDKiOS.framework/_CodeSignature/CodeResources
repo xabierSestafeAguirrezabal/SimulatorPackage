@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/IronchipCommonsIos.framework/IronchipCommonsIos</key>
 		<data>
-		d/sYxpipJ0/JabhVdMm6s0fL2+8=
+		T4UpTWCYr5CvDzaqF8xomPZeLOY=
 		</data>
 		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zoOEIv6HwKh5ipN4/3ONqYXxojM=
+		3Xe6p2LPIkf2EMhkgGUDDCKZI80=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		SNdVMEcWoEoLhjrxw9lH8fyHhnk=
+		dtDoKRW9ogNZRDKcEOjaUFc8RWw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K3fJxr7Ly9ZAwZnXlwyHe5xqiO3EHYUpor+1dNNnYhY=
+			R+LtO+MyD0S2zAMapUl1PgpSmod8o4C/4wTfu3APg8o=
 			</data>
 		</dict>
 		<key>Frameworks/IronchipCommonsIos.framework/_CodeSignature/CodeResources</key>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFRIV7aYpz77LzqB/So3uxUUiw+S7qvYO1+NXDQN0Rc=
+			Yg02t9pwzOYKNPdR+2vF+4dhvrvRoN5tR/lGPa0Eeyg=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3kgOyPMUNbWy3JSn0VUdSXvDOE28NiXo5/lecCp6ag=
+			iQBwriVS0/IkFAhXc0Q3LvQ0HbTNmmF1OS1gR4kkiog=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

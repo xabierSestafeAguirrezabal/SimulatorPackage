@@ -779,16 +779,23 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDKiOSService.swift",
       "kind": "StringLiteral",
-      "offset": 353,
-      "length": 21,
-      "value": "\"com.myapp.my_target\""
+      "offset": 457,
+      "length": 10,
+      "value": "\"Ironchip\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDKiOSService.swift",
       "kind": "StringLiteral",
-      "offset": 386,
-      "length": 9,
-      "value": "\"general\""
+      "offset": 537,
+      "length": 19,
+      "value": "\"Ironchip-location\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDKiOSService.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 15,
+      "value": "\"Ironchip-WIFI\""
     }
   ]
 }
