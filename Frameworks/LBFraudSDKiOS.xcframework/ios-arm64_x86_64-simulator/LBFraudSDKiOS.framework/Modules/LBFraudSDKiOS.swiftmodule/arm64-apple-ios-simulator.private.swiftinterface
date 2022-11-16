@@ -10,6 +10,7 @@ import IronchipCommonsIos
 import Swift
 import _Concurrency
 import _StringProcessing
+import os
 public struct TransactionError : Swift.Error {
   public enum ErrorType {
     case errorCode
@@ -21,11 +22,9 @@ public struct TransactionError : Swift.Error {
   }
   public let traceability_id: Swift.String?
   public let http_code: Swift.Int?
-  public let message: Swift.String
-  public let code: Swift.String
-}
-public struct Codes {
-  public static var UNEXPECTED_ERROR: Swift.String
+  public let message: Swift.String?
+  public let code: Swift.String?
+  public static var RESPONSE_PARSE_ERROR: Swift.String
 }
 public struct LBFraudSDK {
   public init(apikey: Swift.String)

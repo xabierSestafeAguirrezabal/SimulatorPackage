@@ -309,14 +309,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13LBFraudSDKiOS16TransactionErrorV7messageSSvp",
-            "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV7messageSSvp",
+            "usr": "s:13LBFraudSDKiOS16TransactionErrorV7messageSSSgvp",
+            "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV7messageSSSgvp",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "HasStorage",
@@ -332,14 +340,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS16TransactionErrorV7messageSSvg",
-                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV7messageSSvg",
+                "usr": "s:13LBFraudSDKiOS16TransactionErrorV7messageSSSgvg",
+                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV7messageSSSgvg",
                 "moduleName": "LBFraudSDKiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -353,14 +369,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13LBFraudSDKiOS16TransactionErrorV4codeSSvp",
-            "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV4codeSSvp",
+            "usr": "s:13LBFraudSDKiOS16TransactionErrorV4codeSSSgvp",
+            "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV4codeSSSgvp",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "HasStorage",
@@ -376,17 +400,115 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS16TransactionErrorV4codeSSSgvg",
+                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV4codeSSSgvg",
+                "moduleName": "LBFraudSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "RESPONSE_PARSE_ERROR",
+            "printedName": "RESPONSE_PARSE_ERROR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvpZ",
+            "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvpZ",
+            "moduleName": "LBFraudSDKiOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS16TransactionErrorV4codeSSvg",
-                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV4codeSSvg",
+                "usr": "s:13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvgZ",
+                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvgZ",
                 "moduleName": "LBFraudSDKiOS",
+                "static": true,
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvsZ",
+                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvsZ",
+                "moduleName": "LBFraudSDKiOS",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvMZ",
+                "mangledName": "$s13LBFraudSDKiOS16TransactionErrorV20RESPONSE_PARSE_ERRORSSvMZ",
+                "moduleName": "LBFraudSDKiOS",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           }
@@ -413,110 +535,6 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Codes",
-        "printedName": "Codes",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "UNEXPECTED_ERROR",
-            "printedName": "UNEXPECTED_ERROR",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvpZ",
-            "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvpZ",
-            "moduleName": "LBFraudSDKiOS",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvgZ",
-                "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvgZ",
-                "moduleName": "LBFraudSDKiOS",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvsZ",
-                "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvsZ",
-                "moduleName": "LBFraudSDKiOS",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvMZ",
-                "mangledName": "$s13LBFraudSDKiOS5CodesV16UNEXPECTED_ERRORSSvMZ",
-                "moduleName": "LBFraudSDKiOS",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13LBFraudSDKiOS5CodesV",
-        "mangledName": "$s13LBFraudSDKiOS5CodesV",
-        "moduleName": "LBFraudSDKiOS",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -739,6 +757,13 @@
         "printedName": "CryptoKit",
         "declKind": "Import",
         "moduleName": "LBFraudSDKiOS"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "LBFraudSDKiOS"
       }
     ],
     "json_format_version": 8
@@ -747,9 +772,23 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/TransactionError.swift",
       "kind": "StringLiteral",
-      "offset": 424,
-      "length": 4,
-      "value": "\"-1\""
+      "offset": 410,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDKiOSService.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 21,
+      "value": "\"com.myapp.my_target\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDKiOSService.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 9,
+      "value": "\"general\""
     }
   ]
 }
