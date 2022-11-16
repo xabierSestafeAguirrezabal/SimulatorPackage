@@ -43,9 +43,6 @@ public class RESTService {
   @objc override dynamic public init()
   @objc deinit
 }
-public struct NetworkError : Swift.Error {
-  public let message: Swift.String
-}
 public enum SignalsProviderRequiredError : Swift.String, Swift.Error {
   case WifiNotEnable
   public init?(rawValue: Swift.String)
