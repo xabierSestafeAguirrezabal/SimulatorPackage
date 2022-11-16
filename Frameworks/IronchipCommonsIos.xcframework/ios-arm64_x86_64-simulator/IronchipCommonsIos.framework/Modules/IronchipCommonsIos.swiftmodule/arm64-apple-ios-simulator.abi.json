@@ -2027,13 +2027,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/InternalGPSService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1865,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/InternalRESTService.swift",
       "kind": "IntegerLiteral",
       "offset": 184,
