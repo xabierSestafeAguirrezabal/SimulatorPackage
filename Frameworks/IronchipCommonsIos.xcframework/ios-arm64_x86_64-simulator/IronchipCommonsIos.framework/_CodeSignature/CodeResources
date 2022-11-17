@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wW3MKkJvVh+ToZFxGLz5pjKYqRI=
+		OGPtgtuuzpBy8FyqZYeuRlJeHGY=
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QISP/myJCoP1ot1MRtCIzy4hEz4=
+		wrtIlh1gYfObAAapbyxtWA5Iaj0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwjIdLD3Wt2BceTTxe0++Bax/XsJHrZc9TtoixA3SLc=
+			lgdOTUJVURflUAkYwpQCLbN+7qYI/LEuXVIa4A/PDno=
 			</data>
 		</dict>
 		<key>Modules/IronchipCommonsIos.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DX1kIz7tmErNlYhk8GtpnEV1jKjQK4f1P6tnoLCTAM0=
+			7aiIEvL3k1nQzWxbY/YWsI4+DCoKXO6t9hZNsyN0mSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
