@@ -28,8 +28,21 @@ public struct TransactionError : Swift.Error {
 }
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
-  public init(apikey: Swift.String, url: Swift.String)
+  public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
   public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
+}
+public enum Environment : Swift.String {
+  case Production
+  case Testing
+  case Development
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
+extension LBFraudSDKiOS.Environment : Swift.Equatable {}
+extension LBFraudSDKiOS.Environment : Swift.Hashable {}
+extension LBFraudSDKiOS.Environment : Swift.RawRepresentable {}

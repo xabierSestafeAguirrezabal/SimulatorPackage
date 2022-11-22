@@ -596,7 +596,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apikey:url:)",
+            "printedName": "init(apikey:environment:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -612,14 +612,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Environment",
+                "printedName": "LBFraudSDKiOS.Environment",
+                "usr": "s:13LBFraudSDKiOS11EnvironmentO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13LBFraudSDKiOS0A3SDKV6apikey3urlACSS_SStcfc",
-            "mangledName": "$s13LBFraudSDKiOS0A3SDKV6apikey3urlACSS_SStcfc",
+            "usr": "s:13LBFraudSDKiOS0A3SDKV6apikey11environmentACSS_AA11EnvironmentOtcfc",
+            "mangledName": "$s13LBFraudSDKiOS0A3SDKV6apikey11environmentACSS_AA11EnvironmentOtcfc",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "AccessControl"
@@ -728,6 +728,242 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Environment",
+        "printedName": "Environment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Production",
+            "printedName": "Production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LBFraudSDKiOS.Environment.Type) -> LBFraudSDKiOS.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "LBFraudSDKiOS.Environment",
+                    "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LBFraudSDKiOS.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "LBFraudSDKiOS.Environment",
+                        "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13LBFraudSDKiOS11EnvironmentO10ProductionyA2CmF",
+            "mangledName": "$s13LBFraudSDKiOS11EnvironmentO10ProductionyA2CmF",
+            "moduleName": "LBFraudSDKiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Testing",
+            "printedName": "Testing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LBFraudSDKiOS.Environment.Type) -> LBFraudSDKiOS.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "LBFraudSDKiOS.Environment",
+                    "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LBFraudSDKiOS.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "LBFraudSDKiOS.Environment",
+                        "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13LBFraudSDKiOS11EnvironmentO7TestingyA2CmF",
+            "mangledName": "$s13LBFraudSDKiOS11EnvironmentO7TestingyA2CmF",
+            "moduleName": "LBFraudSDKiOS"
+          },
+          {
+            "kind": "Var",
+            "name": "Development",
+            "printedName": "Development",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LBFraudSDKiOS.Environment.Type) -> LBFraudSDKiOS.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "LBFraudSDKiOS.Environment",
+                    "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LBFraudSDKiOS.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "LBFraudSDKiOS.Environment",
+                        "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13LBFraudSDKiOS11EnvironmentO11DevelopmentyA2CmF",
+            "mangledName": "$s13LBFraudSDKiOS11EnvironmentO11DevelopmentyA2CmF",
+            "moduleName": "LBFraudSDKiOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LBFraudSDKiOS.Environment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "LBFraudSDKiOS.Environment",
+                    "usr": "s:13LBFraudSDKiOS11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13LBFraudSDKiOS11EnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13LBFraudSDKiOS11EnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "LBFraudSDKiOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13LBFraudSDKiOS11EnvironmentO8rawValueSSvp",
+            "mangledName": "$s13LBFraudSDKiOS11EnvironmentO8rawValueSSvp",
+            "moduleName": "LBFraudSDKiOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS11EnvironmentO8rawValueSSvg",
+                "mangledName": "$s13LBFraudSDKiOS11EnvironmentO8rawValueSSvg",
+                "moduleName": "LBFraudSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13LBFraudSDKiOS11EnvironmentO",
+        "mangledName": "$s13LBFraudSDKiOS11EnvironmentO",
+        "moduleName": "LBFraudSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -777,30 +1013,79 @@
       "value": "\"0\""
     },
     {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 46,
+      "value": "\"transaction.lbfraud.ironchip.com\/transaction\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1182,
+      "length": 10,
+      "value": "\"testing.\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 6,
+      "value": "\"dev.\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1182,
+      "length": 10,
+      "value": "\"testing.\""
+    },
+    {
+      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 6,
+      "value": "\"dev.\""
+    },
+    {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 481,
       "length": 36,
       "value": "\"LBFraudInternal:getTransactionJSON\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 590,
       "length": 33,
       "value": "\"LBFraudInternal:sendTransaction\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 672,
+      "offset": 693,
       "length": 43,
       "value": "\"LBFraudInternal:getGeoLocationInformation\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 781,
+      "offset": 802,
       "length": 45,
       "value": "\"LBFraudInternal:getconnectedWifiInformation\""
     }
