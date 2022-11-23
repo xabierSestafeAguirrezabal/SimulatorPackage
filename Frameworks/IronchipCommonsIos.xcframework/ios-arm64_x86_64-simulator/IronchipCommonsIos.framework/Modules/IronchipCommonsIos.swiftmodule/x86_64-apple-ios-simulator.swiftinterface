@@ -13,15 +13,6 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
-public enum GPSStatus {
-  case PermissionNotGranted
-  case PermissionGranted
-  public static func == (a: IronchipCommonsIos.GPSStatus, b: IronchipCommonsIos.GPSStatus) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public struct ResponseModel : Swift.Error {
   public let message: Swift.String
   public let code: Swift.Int
@@ -103,8 +94,6 @@ public class GPSService {
   @objc override dynamic public init()
   @objc deinit
 }
-extension IronchipCommonsIos.GPSStatus : Swift.Equatable {}
-extension IronchipCommonsIos.GPSStatus : Swift.Hashable {}
 extension IronchipCommonsIos.SignalsProviderRequiredError : Swift.Equatable {}
 extension IronchipCommonsIos.SignalsProviderRequiredError : Swift.Hashable {}
 extension IronchipCommonsIos.SignalsProviderRequiredError : Swift.RawRepresentable {}
