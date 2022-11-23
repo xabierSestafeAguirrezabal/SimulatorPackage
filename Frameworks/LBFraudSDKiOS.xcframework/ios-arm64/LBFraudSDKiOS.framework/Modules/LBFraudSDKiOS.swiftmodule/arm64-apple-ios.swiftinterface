@@ -10,6 +10,7 @@ import IronchipCommonsIos
 import Swift
 import _Concurrency
 import _StringProcessing
+import os
 public struct TransactionError : Swift.Error {
   public enum ErrorType {
     case errorCode
@@ -21,13 +22,34 @@ public struct TransactionError : Swift.Error {
   }
   public let message: Swift.String
   public let code: Swift.Int
+  public let traceability_id: Swift.String?
+  public let http_code: Swift.Int
 }
 public struct Codes {
 }
+public struct TransactionResponseData : Swift.Decodable {
+  public let error: Swift.String
+  public let error_code: Swift.Int
+  public let traceability_id: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+}
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
-  public init(apikey: Swift.String, url: Swift.String)
-  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], complete: @escaping (LBFraudSDKiOS.TransactionError?) -> ())
+  public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
+}
+public enum Environment : Swift.String {
+  case Production
+  case Testing
+  case Development
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
+extension LBFraudSDKiOS.Environment : Swift.Equatable {}
+extension LBFraudSDKiOS.Environment : Swift.Hashable {}
+extension LBFraudSDKiOS.Environment : Swift.RawRepresentable {}
