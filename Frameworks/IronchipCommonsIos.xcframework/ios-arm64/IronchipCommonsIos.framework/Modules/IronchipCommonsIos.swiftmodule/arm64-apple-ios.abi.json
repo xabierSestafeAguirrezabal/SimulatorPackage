@@ -22,6 +22,206 @@
         "moduleName": "IronchipCommonsIos"
       },
       {
+        "kind": "TypeDecl",
+        "name": "GPSStatus",
+        "printedName": "GPSStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PermissionNotGranted",
+            "printedName": "PermissionNotGranted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IronchipCommonsIos.GPSStatus.Type) -> IronchipCommonsIos.GPSStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GPSStatus",
+                    "printedName": "IronchipCommonsIos.GPSStatus",
+                    "usr": "s:18IronchipCommonsIos9GPSStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IronchipCommonsIos.GPSStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GPSStatus",
+                        "printedName": "IronchipCommonsIos.GPSStatus",
+                        "usr": "s:18IronchipCommonsIos9GPSStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IronchipCommonsIos9GPSStatusO20PermissionNotGrantedyA2CmF",
+            "mangledName": "$s18IronchipCommonsIos9GPSStatusO20PermissionNotGrantedyA2CmF",
+            "moduleName": "IronchipCommonsIos"
+          },
+          {
+            "kind": "Var",
+            "name": "PermissionGranted",
+            "printedName": "PermissionGranted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IronchipCommonsIos.GPSStatus.Type) -> IronchipCommonsIos.GPSStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GPSStatus",
+                    "printedName": "IronchipCommonsIos.GPSStatus",
+                    "usr": "s:18IronchipCommonsIos9GPSStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IronchipCommonsIos.GPSStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GPSStatus",
+                        "printedName": "IronchipCommonsIos.GPSStatus",
+                        "usr": "s:18IronchipCommonsIos9GPSStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18IronchipCommonsIos9GPSStatusO17PermissionGrantedyA2CmF",
+            "mangledName": "$s18IronchipCommonsIos9GPSStatusO17PermissionGrantedyA2CmF",
+            "moduleName": "IronchipCommonsIos"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GPSStatus",
+                "printedName": "IronchipCommonsIos.GPSStatus",
+                "usr": "s:18IronchipCommonsIos9GPSStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GPSStatus",
+                "printedName": "IronchipCommonsIos.GPSStatus",
+                "usr": "s:18IronchipCommonsIos9GPSStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos9GPSStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18IronchipCommonsIos9GPSStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "IronchipCommonsIos",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos9GPSStatusO9hashValueSivp",
+            "mangledName": "$s18IronchipCommonsIos9GPSStatusO9hashValueSivp",
+            "moduleName": "IronchipCommonsIos",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos9GPSStatusO9hashValueSivg",
+                "mangledName": "$s18IronchipCommonsIos9GPSStatusO9hashValueSivg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos9GPSStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18IronchipCommonsIos9GPSStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "IronchipCommonsIos",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18IronchipCommonsIos9GPSStatusO",
+        "mangledName": "$s18IronchipCommonsIos9GPSStatusO",
+        "moduleName": "IronchipCommonsIos",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -170,6 +370,13 @@
         "kind": "Import",
         "name": "NetworkExtension",
         "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
         "declKind": "Import",
         "moduleName": "IronchipCommonsIos"
       },
@@ -851,6 +1058,124 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos12NetworkErrorV7messageSSvp",
+            "mangledName": "$s18IronchipCommonsIos12NetworkErrorV7messageSSvp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos12NetworkErrorV7messageSSvg",
+                "mangledName": "$s18IronchipCommonsIos12NetworkErrorV7messageSSvg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos12NetworkErrorV4codeSivp",
+            "mangledName": "$s18IronchipCommonsIos12NetworkErrorV4codeSivp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos12NetworkErrorV4codeSivg",
+                "mangledName": "$s18IronchipCommonsIos12NetworkErrorV4codeSivg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18IronchipCommonsIos12NetworkErrorV",
+        "mangledName": "$s18IronchipCommonsIos12NetworkErrorV",
+        "moduleName": "IronchipCommonsIos",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SignalsProviderRequiredError",
         "printedName": "SignalsProviderRequiredError",
         "children": [
@@ -1139,43 +1464,6 @@
             "declKind": "EnumElement",
             "usr": "s:18IronchipCommonsIos15GPSServiceErrorO19LocationNotProvidedyA2CmF",
             "mangledName": "$s18IronchipCommonsIos15GPSServiceErrorO19LocationNotProvidedyA2CmF",
-            "moduleName": "IronchipCommonsIos"
-          },
-          {
-            "kind": "Var",
-            "name": "LocationNotDetermined",
-            "printedName": "LocationNotDetermined",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(IronchipCommonsIos.GPSServiceError.Type) -> IronchipCommonsIos.GPSServiceError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GPSServiceError",
-                    "printedName": "IronchipCommonsIos.GPSServiceError",
-                    "usr": "s:18IronchipCommonsIos15GPSServiceErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "IronchipCommonsIos.GPSServiceError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "GPSServiceError",
-                        "printedName": "IronchipCommonsIos.GPSServiceError",
-                        "usr": "s:18IronchipCommonsIos15GPSServiceErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:18IronchipCommonsIos15GPSServiceErrorO21LocationNotDeterminedyA2CmF",
-            "mangledName": "$s18IronchipCommonsIos15GPSServiceErrorO21LocationNotDeterminedyA2CmF",
             "moduleName": "IronchipCommonsIos"
           },
           {
@@ -2029,7 +2317,7 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/InternalGPSService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1893,
+      "offset": 329,
       "length": 5,
       "value": "false"
     },
@@ -2043,126 +2331,112 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 198,
+      "offset": 293,
       "length": 18,
       "value": "\"WIFI not enabled\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 198,
+      "offset": 293,
       "length": 18,
       "value": "\"WIFI not enabled\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 384,
       "length": 24,
       "value": "\"Location Handler error\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 449,
       "length": 33,
       "value": "\"Location permission not granted\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 514,
       "length": 23,
       "value": "\"Location not provided\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 476,
-      "length": 72,
-      "value": "\"When the authorization status is Not Determined, request authorization\""
-    },
-    {
-      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 384,
       "length": 24,
       "value": "\"Location Handler error\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 449,
       "length": 33,
       "value": "\"Location permission not granted\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 514,
       "length": 23,
       "value": "\"Location not provided\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 476,
-      "length": 72,
-      "value": "\"When the authorization status is Not Determined, request authorization\""
-    },
-    {
-      "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
-      "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 614,
       "length": 29,
       "value": "\"Conversion from JSON failed\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 614,
       "length": 29,
       "value": "\"Conversion from JSON failed\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 726,
       "length": 22,
       "value": "\"unknown architecture\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 777,
       "length": 32,
       "value": "\"Conversion from Data to String\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 842,
       "length": 35,
       "value": "\"Error generatting installation ID\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 737,
+      "offset": 726,
       "length": 22,
       "value": "\"unknown architecture\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 777,
       "length": 32,
       "value": "\"Conversion from Data to String\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/ironchip\/Framework\/IronchipCommonsIos\/IronchipCommonsIos\/Errors.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 842,
       "length": 35,
       "value": "\"Error generatting installation ID\""
     }
