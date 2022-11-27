@@ -785,7 +785,8 @@
             "mangledName": "$s13LBFraudSDKiOS0A3SDKV15sendTransaction13transactionId04userH09extraData6finish7onErrorySS_SSSDySSypGyyXEys0N0_pXEtF",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -1093,42 +1094,42 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1711,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1733,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1194,
+      "offset": 1767,
       "length": 6,
       "value": "\"dev.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1711,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1733,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1194,
+      "offset": 1767,
       "length": 6,
       "value": "\"dev.\""
     },
