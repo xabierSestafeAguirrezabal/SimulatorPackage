@@ -26,47 +26,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		X6fbMr9C5FVeE9MaIUWGXuKny+k=
+		Glx4emQRLrCW5ANOXBWvITq0xt4=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		TuTLvBkX829qDRoTzkN6NupXrfw=
+		yhgwwaI6Svzv3lKetZervJtShGg=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fwcUi4ymMpkiI540fnT3qBxg3RY=
+		JBOVHYl05hSKk/XjfDuTTIS3xDE=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		e3K90V6NhWR6VCjmhkXPTcvxsK0=
+		/4r+IUeSmXPVR+dF8dxYIiPEbBM=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fwcUi4ymMpkiI540fnT3qBxg3RY=
+		JBOVHYl05hSKk/XjfDuTTIS3xDE=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cbuw2ehhoEsFPdC5+w+ckXheOI8=
+		RFtY03QG/P82bm9yZlOmahXg/t8=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TuTLvBkX829qDRoTzkN6NupXrfw=
+		yhgwwaI6Svzv3lKetZervJtShGg=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		02bGouzEWyrZ4B+Pt3LLOvOk9sA=
+		aKyCr0BeLSAxIVsIFHLrgBWvX44=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wZHgB26Cxgi+42LrtJBsgcvpVC8=
+		rCYoOMCcWxsasafBqmZqwQmVENA=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		02bGouzEWyrZ4B+Pt3LLOvOk9sA=
+		aKyCr0BeLSAxIVsIFHLrgBWvX44=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mrZIt3B01c6SZHDH2QgGOpLXQmU=
+		8P6J6LsKB2YqW342pe64vUTwkBg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,70 +114,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y3ZNYyFfyS8US/NtFPY09w7Qb11Qz6cobNZ0zwavNys=
+			pEz/uB8/yPnv5yxi+29Tu9o/Do9Idj/DqcQ1oS/X3dQ=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Ni6fziTYCpwraHKemjlUy0Z6tP1tzwVKxY2Tp/8AmA=
+			TuySLgBI4K02OcWCmKKwID2i6GV34D5qlCQsJc9CCj0=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uPdM2nK5SB65s3d1iHRLHcwwkuQXVwvwE3lj5yfF+0=
+			Ki5hlV5LuXpago5RE54PntR9uXReA/o9AhddnpRHmQM=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Ni6fziTYCpwraHKemjlUy0Z6tP1tzwVKxY2Tp/8AmA=
+			TuySLgBI4K02OcWCmKKwID2i6GV34D5qlCQsJc9CCj0=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uWjPUFTTSuqfB0YHBUpQwvZ58jgSSO19LufQDCy0c6I=
+			P8K3B+Hl4U6Ns+ns5fDuV73QbrTWUefz25Qcb+ix3+Q=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y3ZNYyFfyS8US/NtFPY09w7Qb11Qz6cobNZ0zwavNys=
+			pEz/uB8/yPnv5yxi+29Tu9o/Do9Idj/DqcQ1oS/X3dQ=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Izw3nJ5esktLQxrw9oO1IqlipgqhoXdaTBe8B7TMs5w=
+			4hu3fkIdoYHecGpP8UEa7mzojgPRoTUdrL+7ZNGDwwQ=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zrt7QbEQf+xnxP05OrFq5z+/Xqf3iKXlMa/uQ/iVQyc=
+			nWaqZtv63W0cpiRURoC+ytrdM8vMYa89EJUTLISsQBw=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Izw3nJ5esktLQxrw9oO1IqlipgqhoXdaTBe8B7TMs5w=
+			4hu3fkIdoYHecGpP8UEa7mzojgPRoTUdrL+7ZNGDwwQ=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3evKKeuPTpwHk5UOcvEoEf4hNI7bk5bem6GznptH/Q=
+			SrMMVhTrZOCniSPAXRznH40ahOgS/EzMxkb+sRCNmrs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
