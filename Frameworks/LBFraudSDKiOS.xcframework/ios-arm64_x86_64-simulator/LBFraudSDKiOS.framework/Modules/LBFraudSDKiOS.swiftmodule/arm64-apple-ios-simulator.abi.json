@@ -1135,28 +1135,28 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 468,
       "length": 10,
       "value": "\"Ironchip\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 558,
+      "offset": 551,
       "length": 22,
       "value": "\"Ironchip-Transaction\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 643,
       "length": 19,
       "value": "\"Ironchip-Location\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 735,
+      "offset": 728,
       "length": 18,
       "value": "\"Ironchip-Signals\""
     }
