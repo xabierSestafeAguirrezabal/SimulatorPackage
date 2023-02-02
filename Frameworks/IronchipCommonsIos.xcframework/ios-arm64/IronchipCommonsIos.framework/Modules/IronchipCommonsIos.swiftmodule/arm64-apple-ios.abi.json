@@ -1925,6 +1925,48 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isGPSEnabled",
+            "printedName": "isGPSEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos10GPSServiceC12isGPSEnabledSbyF",
+            "mangledName": "$s18IronchipCommonsIos10GPSServiceC12isGPSEnabledSbyF",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isGPSPermissionGranted",
+            "printedName": "isGPSPermissionGranted()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos10GPSServiceC22isGPSPermissionGrantedSbyF",
+            "mangledName": "$s18IronchipCommonsIos10GPSServiceC22isGPSPermissionGrantedSbyF",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1992,6 +2034,27 @@
               "AccessControl"
             ],
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isWifiEnabled",
+            "printedName": "isWifiEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos14SignalsServiceC13isWifiEnabledSbyF",
+            "mangledName": "$s18IronchipCommonsIos14SignalsServiceC13isWifiEnabledSbyF",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {

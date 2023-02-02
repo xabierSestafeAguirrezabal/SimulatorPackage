@@ -86,11 +86,14 @@ public enum DeviceServiceError : Swift.String, Swift.Error {
 public class GPSService {
   public init()
   public func obtainLocation() -> (CoreLocation.CLLocation?, Swift.Error?)
+  public func isGPSEnabled() -> Swift.Bool
+  public func isGPSPermissionGranted() -> Swift.Bool
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class SignalsService : ObjectiveC.NSObject {
   public func getConnectedBSSID() throws -> Swift.String
   public func getConnectedSSID() throws -> Swift.String
+  public func isWifiEnabled() -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
