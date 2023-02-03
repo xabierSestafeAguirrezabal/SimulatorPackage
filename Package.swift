@@ -20,12 +20,12 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-                  name: "IronchipCommonsIos",
-                  path: "Frameworks/IronchipCommonsIos.xcframework"
-              ),
+                     name: "IronchipCommonsIos",
+                     url: "https://github.com/Ironchip-Security/Commons-IOS/releases/download/v1.2.5/IronchipCommonsIos.xcframework.zip",
+                    checksum: "9ac371fac7a9a4cf0e5fb5f301c8726e60188703526d7641ac6b90428707edce"),
         .binaryTarget(
-                  name: "LBFraudSDKiOS",
-                  path: "Frameworks/LBFraudSDKiOS.xcframework"
-              )
+                     name: "LBFraudSDKiOS",
+                     url: "https://github.com/Ironchip-Security/LBFraud-IOS/releases/download/v1.2.5/LBFraudSDKiOS.xcframework.zip",
+                     checksum: "4968275bff5bff58511b4b2fae49db0e37cdfd828278fdc48502047b0c870a5b")
     ]
 )
