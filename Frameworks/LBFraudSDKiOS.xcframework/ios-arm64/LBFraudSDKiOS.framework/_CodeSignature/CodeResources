@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s5CkhTcNJDxjpItaKPk17OU2dt4=
+		Rcq8+qqtJ8L9cRQ44/LdqS6POVw=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4rei936Eid9HoXILmZnubs5eczs=
+		9DBbu6+u4JfvAK3wU+GMER2r7NI=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Z/JYCNNRXGmGg9AcJtV2mbWO48s=
+		1sBmSQy4bu0AbtAyf2IgoT3btpc=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WwDjLYsR7/1xxA+4ijQkrHffbYo=
+		oWUj00HsY+l7KRii2fkhNgrTKLY=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Z/JYCNNRXGmGg9AcJtV2mbWO48s=
+		1sBmSQy4bu0AbtAyf2IgoT3btpc=
 		</data>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		L49tLbb8DvVDSt1jGn0ivr8A6Og=
+		Z2t+kUtfqPfTz57l/pnLfj+WHxo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BxRBc/H6Y98Tmh6biiADmQIJL1zWoLMz87gpumG21is=
+			ag15zjJ4+Ev7dj0MovUQurCMJA3ItcAksfjbyAAlmd4=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CZtY+PFCBG1+4uWx7oqCXiOvgY8GAUgidKTkPrIi/H0=
+			heGo2bqzLZ2xereQoWrAnQRY/biDi2kI0FS8XSxJpxM=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MbFl7E9DjqtUTKje4y4tQs+HyaqqXLUx4h1F8ENk6bY=
+			A1hnK3XBocRR7Q+rJD1W/IJNy2LwN9YJApP5M970QJM=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CZtY+PFCBG1+4uWx7oqCXiOvgY8GAUgidKTkPrIi/H0=
+			heGo2bqzLZ2xereQoWrAnQRY/biDi2kI0FS8XSxJpxM=
 			</data>
 		</dict>
 		<key>Modules/LBFraudSDKiOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d/77eFSKgh2rnG1xHvt4ahcfGSthoGoRVOo2oKqfw2E=
+			Aqp8ftC1QZbEwtan4JB7DS59QZ6YS97t6rUF4t6ZNi0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

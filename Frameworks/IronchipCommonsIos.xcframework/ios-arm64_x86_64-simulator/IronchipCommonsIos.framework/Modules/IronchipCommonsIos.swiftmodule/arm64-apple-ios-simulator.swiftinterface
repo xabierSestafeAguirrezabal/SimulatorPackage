@@ -1,0 +1,111 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IronchipCommonsIos
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import SystemConfiguration.CaptiveNetwork
+import CoreLocation
+import CryptoKit
+import Foundation
+@_exported import IronchipCommonsIos
+import NetworkExtension
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct ResponseModel : Swift.Error {
+  public let message: Swift.String
+  public let code: Swift.Int
+}
+public class RESTService {
+  public init()
+  public func getRequest(_ url: Swift.String, headers: [Swift.String : Swift.String]?) throws -> IronchipCommonsIos.ResponseModel
+  public func postRequest(_ url: Swift.String, data: Foundation.Data?, headers: [Swift.String : Swift.String]) throws -> IronchipCommonsIos.ResponseModel
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class DeviceService : ObjectiveC.NSObject {
+  public func getModel() -> Swift.String
+  public func getManufacturer() -> Swift.String
+  public func getName() -> Swift.String
+  public func getOS() -> Swift.String
+  public func getSystemVersion() -> Swift.String
+  public func getUUID() -> Swift.String?
+  public func isDebug() -> Swift.Bool
+  public func isEmulated() -> Swift.Bool
+  public func isRooted() -> Swift.Bool
+  public func getInstallationID() throws -> Swift.String
+  public func getScreenSize() -> CoreFoundation.CGSize
+  public func getArchitecture() throws -> Swift.String
+  public func getDeviceLanguage() -> Swift.String?
+  public func getRAMCapacity() -> Swift.UInt64
+  public func getStorageCapacity() -> Swift.Int64
+  public func getFingerprint() throws -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct NetworkError : Swift.Error {
+  public let message: Swift.String
+  public let code: Swift.Int
+}
+public enum SignalsProviderRequiredError : Swift.String, Swift.Error {
+  case WifiNotEnable
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum GPSServiceError : Swift.String, Swift.Error {
+  case HandlerError
+  case LocationPermissionNotGranted
+  case LocationNotProvided
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum JSONDecodeError : Swift.String, Swift.Error {
+  case ConversionFailed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum DeviceServiceError : Swift.String, Swift.Error {
+  case UnknownArchitecture
+  case ConversionFailed
+  case InstallationIDFailed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class GPSService {
+  public init()
+  public func obtainLocation() -> (CoreLocation.CLLocation?, Swift.Error?)
+  public func isGPSEnabled() -> Swift.Bool
+  public func isGPSPermissionGranted() -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class SignalsService : ObjectiveC.NSObject {
+  public func getConnectedBSSID() throws -> Swift.String
+  public func getConnectedSSID() throws -> Swift.String
+  public func isWifiEnabled() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension IronchipCommonsIos.SignalsProviderRequiredError : Swift.Equatable {}
+extension IronchipCommonsIos.SignalsProviderRequiredError : Swift.Hashable {}
+extension IronchipCommonsIos.SignalsProviderRequiredError : Swift.RawRepresentable {}
+extension IronchipCommonsIos.GPSServiceError : Swift.Equatable {}
+extension IronchipCommonsIos.GPSServiceError : Swift.Hashable {}
+extension IronchipCommonsIos.GPSServiceError : Swift.RawRepresentable {}
+extension IronchipCommonsIos.JSONDecodeError : Swift.Equatable {}
+extension IronchipCommonsIos.JSONDecodeError : Swift.Hashable {}
+extension IronchipCommonsIos.JSONDecodeError : Swift.RawRepresentable {}
+extension IronchipCommonsIos.DeviceServiceError : Swift.Equatable {}
+extension IronchipCommonsIos.DeviceServiceError : Swift.Hashable {}
+extension IronchipCommonsIos.DeviceServiceError : Swift.RawRepresentable {}
