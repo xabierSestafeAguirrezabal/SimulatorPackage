@@ -18,7 +18,7 @@ public struct ResponseModel : Swift.Error {
   public let message: Swift.String
   public let code: Swift.Int
 }
-public struct SIMInfo : Swift.Codable {
+public struct SIMInfo {
   public let carrier: Swift.String
   public let mcc: Swift.String?
   public let mnc: Swift.String?
@@ -30,8 +30,6 @@ public struct SIMInfo : Swift.Codable {
   public var nsDictionary: [Swift.String : Any] {
     get
   }
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
 }
 public class RESTService {
   public init()
@@ -56,7 +54,7 @@ public class RESTService {
   public func getRAMCapacity() -> Swift.UInt64
   public func getStorageCapacity() -> Swift.Int64
   public func getFingerprint() throws -> Swift.String
-  public func getSIMsInfo() -> Foundation.Data
+  public func getSIMsInfo() -> [IronchipCommonsIos.SIMInfo]
   @objc override dynamic public init()
   @objc deinit
 }
