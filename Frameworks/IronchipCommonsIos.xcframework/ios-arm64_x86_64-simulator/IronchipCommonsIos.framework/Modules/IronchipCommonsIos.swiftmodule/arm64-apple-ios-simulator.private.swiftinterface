@@ -19,7 +19,7 @@ public struct ResponseModel : Swift.Error {
   public let code: Swift.Int
 }
 public struct SIMInfo {
-  public let carrier: Swift.String?
+  public let carrier: Swift.String
   public let mcc: Swift.String?
   public let mnc: Swift.String?
   public let country_code: Swift.String?
@@ -53,7 +53,7 @@ public class RESTService {
   public func getRAMCapacity() -> Swift.UInt64
   public func getStorageCapacity() -> Swift.Int64
   public func getFingerprint() throws -> Swift.String
-  public func getSIMsInfo() -> [Swift.String : IronchipCommonsIos.SIMInfo]
+  public func getSIMsInfo() -> [Swift.String : Any]
   @objc override dynamic public init()
   @objc deinit
 }

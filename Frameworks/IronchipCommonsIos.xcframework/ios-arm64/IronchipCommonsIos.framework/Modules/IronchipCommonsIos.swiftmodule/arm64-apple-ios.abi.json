@@ -161,22 +161,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:18IronchipCommonsIos7SIMInfoV7carrierSSSgvp",
-            "mangledName": "$s18IronchipCommonsIos7SIMInfoV7carrierSSSgvp",
+            "usr": "s:18IronchipCommonsIos7SIMInfoV7carrierSSvp",
+            "mangledName": "$s18IronchipCommonsIos7SIMInfoV7carrierSSvp",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "HasStorage",
@@ -192,22 +184,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18IronchipCommonsIos7SIMInfoV7carrierSSSgvg",
-                "mangledName": "$s18IronchipCommonsIos7SIMInfoV7carrierSSSgvg",
+                "usr": "s:18IronchipCommonsIos7SIMInfoV7carrierSSvg",
+                "mangledName": "$s18IronchipCommonsIos7SIMInfoV7carrierSSvg",
                 "moduleName": "IronchipCommonsIos",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1148,7 +1132,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : IronchipCommonsIos.SIMInfo]",
+                "printedName": "[Swift.String : Any]",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1158,17 +1142,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "SIMInfo",
-                    "printedName": "IronchipCommonsIos.SIMInfo",
-                    "usr": "s:18IronchipCommonsIos7SIMInfoV"
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
                   }
                 ],
                 "usr": "s:SD"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySSAA7SIMInfoVGyF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySSAA7SIMInfoVGyF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySSypGyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySSypGyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
