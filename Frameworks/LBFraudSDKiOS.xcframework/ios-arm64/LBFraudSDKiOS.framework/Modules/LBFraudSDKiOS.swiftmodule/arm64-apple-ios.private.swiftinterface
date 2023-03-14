@@ -11,6 +11,13 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import os
+public class LBFraudInternal {
+  public init()
+  public func getTransactionData() -> [Swift.String : Any?]
+  public func getTransactionJSON(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any]) throws -> Foundation.Data?
+  public func getDeviceInformation() -> [Swift.String : Any?]
+  @objc deinit
+}
 public struct TransactionError : Swift.Error {
   public enum ErrorType {
     case errorCode
