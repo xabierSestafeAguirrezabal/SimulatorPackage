@@ -23,6 +23,7 @@ public struct SIMInfo {
   public let mcc: Swift.String?
   public let mnc: Swift.String?
   public let country_code: Swift.String?
+  public let roaming: Swift.Bool
   public var dictionary: [Swift.String : Any] {
     get
   }
@@ -53,7 +54,7 @@ public class RESTService {
   public func getRAMCapacity() -> Swift.UInt64
   public func getStorageCapacity() -> Swift.Int64
   public func getFingerprint() throws -> Swift.String
-  public func getSIMsInfo() -> [Swift.Int : Any]
+  public func getSIMsInfo() -> [IronchipCommonsIos.SIMInfo]
   @objc override dynamic public init()
   @objc deinit
 }

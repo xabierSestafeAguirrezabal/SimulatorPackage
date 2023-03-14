@@ -380,6 +380,50 @@
           },
           {
             "kind": "Var",
+            "name": "roaming",
+            "printedName": "roaming",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos7SIMInfoV7roamingSbvp",
+            "mangledName": "$s18IronchipCommonsIos7SIMInfoV7roamingSbvp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos7SIMInfoV7roamingSbvg",
+                "mangledName": "$s18IronchipCommonsIos7SIMInfoV7roamingSbvg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "dictionary",
             "printedName": "dictionary",
             "children": [
@@ -1131,27 +1175,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.Int : Any]",
+                "name": "Array",
+                "printedName": "[IronchipCommonsIos.SIMInfo]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "SIMInfo",
+                    "printedName": "IronchipCommonsIos.SIMInfo",
+                    "usr": "s:18IronchipCommonsIos7SIMInfoV"
                   }
                 ],
-                "usr": "s:SD"
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySiypGyF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySiypGyF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
