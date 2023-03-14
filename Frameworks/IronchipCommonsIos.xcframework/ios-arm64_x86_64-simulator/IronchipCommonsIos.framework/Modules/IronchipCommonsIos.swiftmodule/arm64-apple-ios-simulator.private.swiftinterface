@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IronchipCommonsIos
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import SystemConfiguration.CaptiveNetwork
 import CoreLocation
+import CoreTelephony
 import CryptoKit
 import Foundation
 @_exported import IronchipCommonsIos
@@ -16,6 +17,18 @@ import _StringProcessing
 public struct ResponseModel : Swift.Error {
   public let message: Swift.String
   public let code: Swift.Int
+}
+public struct SIMInfo {
+  public let carrier: Swift.String?
+  public let mcc: Swift.String?
+  public let mnc: Swift.String?
+  public let country_code: Swift.String?
+  public var dictionary: [Swift.String : Any] {
+    get
+  }
+  public var nsDictionary: [Swift.String : Any] {
+    get
+  }
 }
 public class RESTService {
   public init()
@@ -40,6 +53,7 @@ public class RESTService {
   public func getRAMCapacity() -> Swift.UInt64
   public func getStorageCapacity() -> Swift.Int64
   public func getFingerprint() throws -> Swift.String
+  public func getSIMsInfo() -> [Swift.String : IronchipCommonsIos.SIMInfo]
   @objc override dynamic public init()
   @objc deinit
 }
