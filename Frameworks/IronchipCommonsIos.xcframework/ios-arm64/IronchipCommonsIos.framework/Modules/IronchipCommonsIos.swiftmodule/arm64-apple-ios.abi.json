@@ -569,6 +569,57 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMInfo",
+                "printedName": "IronchipCommonsIos.SIMInfo",
+                "usr": "s:18IronchipCommonsIos7SIMInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18IronchipCommonsIos7SIMInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18IronchipCommonsIos7SIMInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "IronchipCommonsIos",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos7SIMInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18IronchipCommonsIos7SIMInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "IronchipCommonsIos",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -577,6 +628,22 @@
         "moduleName": "IronchipCommonsIos",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -1191,22 +1258,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[IronchipCommonsIos.SIMInfo]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SIMInfo",
-                    "printedName": "IronchipCommonsIos.SIMInfo",
-                    "usr": "s:18IronchipCommonsIos7SIMInfoV"
-                  }
-                ],
-                "usr": "s:Sa"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSSyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSSyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
