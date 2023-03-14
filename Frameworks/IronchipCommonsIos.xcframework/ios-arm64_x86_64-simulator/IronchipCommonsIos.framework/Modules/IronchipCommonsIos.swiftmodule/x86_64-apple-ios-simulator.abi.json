@@ -1258,14 +1258,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSSyF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSSyF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfo10Foundation4DataVyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfo10Foundation4DataVyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
