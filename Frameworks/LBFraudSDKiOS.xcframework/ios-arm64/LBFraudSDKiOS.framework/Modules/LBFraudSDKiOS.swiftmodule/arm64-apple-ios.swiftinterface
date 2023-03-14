@@ -33,8 +33,6 @@ public struct TransactionResponseData : Swift.Decodable {
   public let traceability_id: Swift.String?
   public init(from decoder: Swift.Decoder) throws
 }
-public struct SIMInfo {
-}
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)

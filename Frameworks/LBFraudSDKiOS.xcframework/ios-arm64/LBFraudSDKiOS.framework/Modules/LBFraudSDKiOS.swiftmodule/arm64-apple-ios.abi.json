@@ -647,18 +647,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "SIMInfo",
-        "printedName": "SIMInfo",
-        "declKind": "Struct",
-        "usr": "s:13LBFraudSDKiOS7SIMInfoV",
-        "mangledName": "$s13LBFraudSDKiOS7SIMInfoV",
-        "moduleName": "LBFraudSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
