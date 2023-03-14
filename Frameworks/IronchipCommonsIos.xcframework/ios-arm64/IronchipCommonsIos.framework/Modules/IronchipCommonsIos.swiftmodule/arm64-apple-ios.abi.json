@@ -1132,13 +1132,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "printedName": "[Swift.Int : Any]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   },
                   {
                     "kind": "TypeNominal",
@@ -1150,8 +1150,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySSypGyF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySSypGyF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySiypGyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSDySiypGyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
