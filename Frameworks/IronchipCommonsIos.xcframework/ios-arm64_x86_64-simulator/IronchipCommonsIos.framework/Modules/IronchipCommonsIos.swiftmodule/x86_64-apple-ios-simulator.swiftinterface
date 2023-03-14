@@ -23,7 +23,7 @@ public struct SIMInfo {
   public let mcc: Swift.String?
   public let mnc: Swift.String?
   public let country_code: Swift.String?
-  public let roaming: Swift.Bool
+  public let roaming: Swift.Bool?
   public var dictionary: [Swift.String : Any] {
     get
   }

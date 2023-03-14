@@ -385,14 +385,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:18IronchipCommonsIos7SIMInfoV7roamingSbvp",
-            "mangledName": "$s18IronchipCommonsIos7SIMInfoV7roamingSbvp",
+            "usr": "s:18IronchipCommonsIos7SIMInfoV7roamingSbSgvp",
+            "mangledName": "$s18IronchipCommonsIos7SIMInfoV7roamingSbSgvp",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "HasStorage",
@@ -408,14 +416,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18IronchipCommonsIos7SIMInfoV7roamingSbvg",
-                "mangledName": "$s18IronchipCommonsIos7SIMInfoV7roamingSbvg",
+                "usr": "s:18IronchipCommonsIos7SIMInfoV7roamingSbSgvg",
+                "mangledName": "$s18IronchipCommonsIos7SIMInfoV7roamingSbSgvg",
                 "moduleName": "IronchipCommonsIos",
                 "implicit": true,
                 "accessorKind": "get"
