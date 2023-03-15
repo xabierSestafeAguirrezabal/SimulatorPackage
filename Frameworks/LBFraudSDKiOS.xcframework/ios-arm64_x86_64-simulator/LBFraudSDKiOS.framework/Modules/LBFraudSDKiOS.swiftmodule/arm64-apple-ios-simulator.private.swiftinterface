@@ -11,13 +11,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import os
-public class LBFraudInternal {
-  public init()
-  public func getTransactionData() -> [Swift.String : Any?]
-  public func getTransactionJSON(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any]) throws -> Foundation.Data?
-  public func getDeviceInformation() -> [Swift.String : Any?]
-  @objc deinit
-}
 public struct TransactionError : Swift.Error {
   public enum ErrorType {
     case errorCode
@@ -44,7 +37,6 @@ public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
   public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
-  public func transactionData() -> [Swift.String : Any?]
 }
 public enum Environment : Swift.String {
   case Production

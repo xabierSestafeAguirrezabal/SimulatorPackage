@@ -43,186 +43,6 @@
         "moduleName": "LBFraudSDKiOS"
       },
       {
-        "kind": "TypeDecl",
-        "name": "LBFraudInternal",
-        "printedName": "LBFraudInternal",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "LBFraudInternal",
-                "printedName": "LBFraudSDKiOS.LBFraudInternal",
-                "usr": "s:13LBFraudSDKiOS0A8InternalC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13LBFraudSDKiOS0A8InternalCACycfc",
-            "mangledName": "$s13LBFraudSDKiOS0A8InternalCACycfc",
-            "moduleName": "LBFraudSDKiOS",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "getTransactionData",
-            "printedName": "getTransactionData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any?]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A8InternalC18getTransactionDataSDySSypSgGyF",
-            "mangledName": "$s13LBFraudSDKiOS0A8InternalC18getTransactionDataSDySSypSgGyF",
-            "moduleName": "LBFraudSDKiOS",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getTransactionJSON",
-            "printedName": "getTransactionJSON(transactionId:userId:extraData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Data?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Data",
-                    "printedName": "Foundation.Data",
-                    "usr": "s:10Foundation4DataV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A8InternalC18getTransactionJSON13transactionId04userI09extraData10Foundation0L0VSgSS_SSSDySSypGtKF",
-            "mangledName": "$s13LBFraudSDKiOS0A8InternalC18getTransactionJSON13transactionId04userI09extraData10Foundation0L0VSgSS_SSSDySSypGtKF",
-            "moduleName": "LBFraudSDKiOS",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getDeviceInformation",
-            "printedName": "getDeviceInformation()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any?]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A8InternalC20getDeviceInformationSDySSypSgGyF",
-            "mangledName": "$s13LBFraudSDKiOS0A8InternalC20getDeviceInformationSDySSypSgGyF",
-            "moduleName": "LBFraudSDKiOS",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13LBFraudSDKiOS0A8InternalC",
-        "mangledName": "$s13LBFraudSDKiOS0A8InternalC",
-        "moduleName": "LBFraudSDKiOS",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -999,48 +819,6 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "transactionData",
-            "printedName": "transactionData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any?]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A3SDKV15transactionDataSDySSypSgGyF",
-            "mangledName": "$s13LBFraudSDKiOS0A3SDKV15transactionDataSDySSypSgGyF",
-            "moduleName": "LBFraudSDKiOS",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -1294,28 +1072,28 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 461,
+      "offset": 447,
       "length": 10,
       "value": "\"Ironchip\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 530,
       "length": 22,
       "value": "\"Ironchip-Transaction\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 636,
+      "offset": 622,
       "length": 19,
       "value": "\"Ironchip-Location\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudInternal.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 707,
       "length": 18,
       "value": "\"Ironchip-Signals\""
     },
@@ -1336,42 +1114,42 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1040,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1062,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1096,
       "length": 6,
       "value": "\"dev.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1040,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1062,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1096,
       "length": 6,
       "value": "\"dev.\""
     }
