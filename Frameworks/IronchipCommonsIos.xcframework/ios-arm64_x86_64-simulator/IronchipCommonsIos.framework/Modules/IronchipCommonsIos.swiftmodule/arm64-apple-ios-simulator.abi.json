@@ -1222,13 +1222,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyKF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyKF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
             ],
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
