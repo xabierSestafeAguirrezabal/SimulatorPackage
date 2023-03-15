@@ -16,6 +16,23 @@
       },
       {
         "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
         "declKind": "Import",
@@ -1205,12 +1222,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
-            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyF",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyKF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC11getSIMsInfoSayAA7SIMInfoVGyKF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2607,23 +2625,6 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "IronchipCommonsIos",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "IronchipCommonsIos"
       },
       {
         "kind": "Import",

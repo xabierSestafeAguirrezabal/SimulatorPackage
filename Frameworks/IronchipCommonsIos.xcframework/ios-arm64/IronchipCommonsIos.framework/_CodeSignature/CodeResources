@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mxjqYx1G/dJ+YNVXoSpcbMW4OYQ=
+		knBmVQSleJEXuZHwI9nTk+YfsPA=
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		IdZkxtkA70mLAesvJspGaRbraSo=
+		s2qCng/4sp/gnPy1FOQf1NDB1og=
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		IdZkxtkA70mLAesvJspGaRbraSo=
+		s2qCng/4sp/gnPy1FOQf1NDB1og=
 		</data>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6rwSmgtq5ZfxYKrdH+0E79IpYeY=
+		Xpns8O3WSFgYB7TVNjxV2ncHFfY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fL5bWo8UlASxMMg0AstluaFqDF8Fb1vFMDXMOgTKVBg=
+			9N4KS7Jajwn8gVW++clY/GPlABmP4Y5650wYcOw6fds=
 			</data>
 		</dict>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcRAQKeUToAmPG5wp1SLVAzoNYxRI9odAFWzOHha0ds=
+			JMoJA6p2k1Wc4w8yqWD7yCyak1QX3YpWvF/AS7VLrpI=
 			</data>
 		</dict>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xcRAQKeUToAmPG5wp1SLVAzoNYxRI9odAFWzOHha0ds=
+			JMoJA6p2k1Wc4w8yqWD7yCyak1QX3YpWvF/AS7VLrpI=
 			</data>
 		</dict>
 		<key>Modules/IronchipCommonsIos.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6g294ee15o6zfVgo6IHD+a5deZgRVsPauALCoGO7pJQ=
+			VyivIyXQMbf9DfEN2o8iF5u742/j/Qr9gfCd47Q8p3o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -54,7 +54,7 @@ public class RESTService {
   public func getRAMCapacity() -> Swift.UInt64
   public func getStorageCapacity() -> Swift.Int64
   public func getFingerprint() throws -> Swift.String
-  public func getSIMsInfo() -> [IronchipCommonsIos.SIMInfo]
+  public func getSIMsInfo() throws -> [IronchipCommonsIos.SIMInfo]
   @objc override dynamic public init()
   @objc deinit
 }
