@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LBFraudSDKiOS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
@@ -31,12 +31,12 @@ public struct TransactionResponseData : Swift.Decodable {
   public let error: Swift.String
   public let error_code: Swift.String
   public let traceability_id: Swift.String?
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
-  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (any Swift.Error) -> ())
+  public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
 }
 public enum Environment : Swift.String {
   case Production

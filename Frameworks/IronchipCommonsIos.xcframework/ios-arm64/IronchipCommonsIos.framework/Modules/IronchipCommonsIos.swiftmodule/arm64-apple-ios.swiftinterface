@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IronchipCommonsIos
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import SystemConfiguration.CaptiveNetwork
@@ -85,7 +85,7 @@ public enum DeviceServiceError : Swift.String, Swift.Error {
 }
 public class GPSService {
   public init()
-  public func obtainLocation() -> (CoreLocation.CLLocation?, (any Swift.Error)?)
+  public func obtainLocation() -> (CoreLocation.CLLocation?, Swift.Error?)
   public func isGPSEnabled() -> Swift.Bool
   public func isGPSPermissionGranted() -> Swift.Bool
   @objc deinit
