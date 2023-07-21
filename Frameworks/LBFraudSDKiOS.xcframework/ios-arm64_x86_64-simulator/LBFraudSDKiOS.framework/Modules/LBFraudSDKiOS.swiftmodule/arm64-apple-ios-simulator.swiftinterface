@@ -37,6 +37,8 @@ public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
   public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
+  public func setProxy(proxyURL: Swift.String, proxyPort: Swift.Int)
+  public func clearProxy()
 }
 public enum Environment : Swift.String {
   case Production
