@@ -21,6 +21,8 @@ public class RESTService {
   public init()
   public func getRequest(_ url: Swift.String, headers: [Swift.String : Swift.String]?) throws -> IronchipCommonsIos.ResponseModel
   public func postRequest(_ url: Swift.String, data: Foundation.Data?, headers: [Swift.String : Swift.String]) throws -> IronchipCommonsIos.ResponseModel
+  public func setProxy(proxyURL: Swift.String, proxyPort: Swift.Int)
+  public func cleanProxy()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class DeviceService : ObjectiveC.NSObject {
