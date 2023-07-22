@@ -1115,6 +1115,96 @@
         "kind": "TypeDecl",
         "name": "Proxy1",
         "printedName": "Proxy1",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "proxyURL",
+            "printedName": "proxyURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13LBFraudSDKiOS6Proxy1V8proxyURLSSvp",
+            "mangledName": "$s13LBFraudSDKiOS6Proxy1V8proxyURLSSvp",
+            "moduleName": "LBFraudSDKiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS6Proxy1V8proxyURLSSvg",
+                "mangledName": "$s13LBFraudSDKiOS6Proxy1V8proxyURLSSvg",
+                "moduleName": "LBFraudSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "proxyPort",
+            "printedName": "proxyPort",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13LBFraudSDKiOS6Proxy1V9proxyPortSivp",
+            "mangledName": "$s13LBFraudSDKiOS6Proxy1V9proxyPortSivp",
+            "moduleName": "LBFraudSDKiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13LBFraudSDKiOS6Proxy1V9proxyPortSivg",
+                "mangledName": "$s13LBFraudSDKiOS6Proxy1V9proxyPortSivg",
+                "moduleName": "LBFraudSDKiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:13LBFraudSDKiOS6Proxy1V",
         "mangledName": "$s13LBFraudSDKiOS6Proxy1V",
