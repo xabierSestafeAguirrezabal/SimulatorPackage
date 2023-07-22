@@ -150,6 +150,141 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Proxy",
+        "printedName": "Proxy",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "proxyURL",
+            "printedName": "proxyURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos5ProxyV8proxyURLSSvp",
+            "mangledName": "$s18IronchipCommonsIos5ProxyV8proxyURLSSvp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos5ProxyV8proxyURLSSvg",
+                "mangledName": "$s18IronchipCommonsIos5ProxyV8proxyURLSSvg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "proxyPort",
+            "printedName": "proxyPort",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IronchipCommonsIos5ProxyV9proxyPortSivp",
+            "mangledName": "$s18IronchipCommonsIos5ProxyV9proxyPortSivp",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IronchipCommonsIos5ProxyV9proxyPortSivg",
+                "mangledName": "$s18IronchipCommonsIos5ProxyV9proxyPortSivg",
+                "moduleName": "IronchipCommonsIos",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(proxyURL:proxyPort:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Proxy",
+                "printedName": "IronchipCommonsIos.Proxy",
+                "usr": "s:18IronchipCommonsIos5ProxyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18IronchipCommonsIos5ProxyV8proxyURL0E4PortACSS_Sitcfc",
+            "mangledName": "$s18IronchipCommonsIos5ProxyV8proxyURL0E4PortACSS_Sitcfc",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18IronchipCommonsIos5ProxyV",
+        "mangledName": "$s18IronchipCommonsIos5ProxyV",
+        "moduleName": "IronchipCommonsIos",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -368,7 +503,7 @@
           {
             "kind": "Function",
             "name": "setProxy",
-            "printedName": "setProxy(proxyURL:proxyPort:)",
+            "printedName": "setProxy(proxyConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -377,20 +512,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Proxy",
+                "printedName": "IronchipCommonsIos.Proxy",
+                "usr": "s:18IronchipCommonsIos5ProxyV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos11RESTServiceC8setProxy8proxyURL0G4PortySS_SitF",
-            "mangledName": "$s18IronchipCommonsIos11RESTServiceC8setProxy8proxyURL0G4PortySS_SitF",
+            "usr": "s:18IronchipCommonsIos11RESTServiceC8setProxy18proxyConfigurationyAA0F0V_tF",
+            "mangledName": "$s18IronchipCommonsIos11RESTServiceC8setProxy18proxyConfigurationyAA0F0V_tF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"

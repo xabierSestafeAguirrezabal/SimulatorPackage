@@ -823,7 +823,7 @@
           {
             "kind": "Function",
             "name": "setProxy",
-            "printedName": "setProxy(proxyURL:proxyPort:)",
+            "printedName": "setProxy(proxyConfiguration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -832,20 +832,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Proxy1",
+                "printedName": "LBFraudSDKiOS.Proxy1",
+                "usr": "s:13LBFraudSDKiOS6Proxy1V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A3SDKV8setProxy8proxyURL0G4PortySS_SitF",
-            "mangledName": "$s13LBFraudSDKiOS0A3SDKV8setProxy8proxyURL0G4PortySS_SitF",
+            "usr": "s:13LBFraudSDKiOS0A3SDKV8setProxy18proxyConfigurationyAA6Proxy1V_tF",
+            "mangledName": "$s13LBFraudSDKiOS0A3SDKV8setProxy18proxyConfigurationyAA6Proxy1V_tF",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "AccessControl"
@@ -1116,6 +1110,18 @@
             "mangledName": "$sSY"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Proxy1",
+        "printedName": "Proxy1",
+        "declKind": "Struct",
+        "usr": "s:13LBFraudSDKiOS6Proxy1V",
+        "mangledName": "$s13LBFraudSDKiOS6Proxy1V",
+        "moduleName": "LBFraudSDKiOS",
+        "declAttributes": [
+          "AccessControl"
+        ]
       }
     ],
     "json_format_version": 8
@@ -1166,42 +1172,42 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1280,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1322,
+      "offset": 1314,
       "length": 6,
       "value": "\"dev.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1280,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1322,
+      "offset": 1314,
       "length": 6,
       "value": "\"dev.\""
     }
