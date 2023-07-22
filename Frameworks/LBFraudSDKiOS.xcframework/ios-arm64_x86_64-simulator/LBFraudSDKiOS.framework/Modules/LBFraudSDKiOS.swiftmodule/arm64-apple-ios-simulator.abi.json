@@ -1203,6 +1203,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(proxyURL:proxyPort:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Proxy1",
+                "printedName": "LBFraudSDKiOS.Proxy1",
+                "usr": "s:13LBFraudSDKiOS6Proxy1V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13LBFraudSDKiOS6Proxy1V8proxyURL0E4PortACSS_Sitcfc",
+            "mangledName": "$s13LBFraudSDKiOS6Proxy1V8proxyURL0E4PortACSS_Sitcfc",
+            "moduleName": "LBFraudSDKiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",

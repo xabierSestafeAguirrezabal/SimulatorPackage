@@ -53,6 +53,7 @@ public enum Environment : Swift.String {
 public struct Proxy1 {
   public let proxyURL: Swift.String
   public let proxyPort: Swift.Int
+  public init(proxyURL: Swift.String, proxyPort: Swift.Int)
 }
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Equatable {}
 extension LBFraudSDKiOS.TransactionError.ErrorType : Swift.Hashable {}
