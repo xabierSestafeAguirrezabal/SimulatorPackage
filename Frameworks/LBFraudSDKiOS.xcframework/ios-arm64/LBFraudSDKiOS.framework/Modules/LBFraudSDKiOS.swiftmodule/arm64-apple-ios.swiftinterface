@@ -37,7 +37,7 @@ public struct LBFraudSDK {
   public init(apikey: Swift.String)
   public init(apikey: Swift.String, environment: LBFraudSDKiOS.Environment)
   public func sendTransaction(transactionId: Swift.String, userId: Swift.String, extraData: [Swift.String : Any], finish: () -> (), onError: (Swift.Error) -> ())
-  public func setProxy(proxyConfiguration: LBFraudSDKiOS.Proxy1)
+  public func setProxy(proxyConfiguration: LBFraudSDKiOS.Proxy)
   public func clearProxy()
 }
 public enum Environment : Swift.String {
@@ -50,7 +50,7 @@ public enum Environment : Swift.String {
     get
   }
 }
-public struct Proxy1 {
+public struct Proxy {
   public let proxyURL: Swift.String
   public let proxyPort: Swift.Int
   public init(proxyURL: Swift.String, proxyPort: Swift.Int)

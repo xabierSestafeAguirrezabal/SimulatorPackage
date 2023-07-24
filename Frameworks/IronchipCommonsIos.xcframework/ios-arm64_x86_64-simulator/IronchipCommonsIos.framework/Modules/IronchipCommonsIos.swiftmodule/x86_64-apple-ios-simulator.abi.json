@@ -151,8 +151,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Proxy",
-        "printedName": "Proxy",
+        "name": "ProxyCommons",
+        "printedName": "ProxyCommons",
         "children": [
           {
             "kind": "Var",
@@ -167,8 +167,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18IronchipCommonsIos5ProxyV8proxyURLSSvp",
-            "mangledName": "$s18IronchipCommonsIos5ProxyV8proxyURLSSvp",
+            "usr": "s:18IronchipCommonsIos05ProxyB0V8proxyURLSSvp",
+            "mangledName": "$s18IronchipCommonsIos05ProxyB0V8proxyURLSSvp",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "HasStorage",
@@ -190,8 +190,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18IronchipCommonsIos5ProxyV8proxyURLSSvg",
-                "mangledName": "$s18IronchipCommonsIos5ProxyV8proxyURLSSvg",
+                "usr": "s:18IronchipCommonsIos05ProxyB0V8proxyURLSSvg",
+                "mangledName": "$s18IronchipCommonsIos05ProxyB0V8proxyURLSSvg",
                 "moduleName": "IronchipCommonsIos",
                 "implicit": true,
                 "accessorKind": "get"
@@ -211,8 +211,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:18IronchipCommonsIos5ProxyV9proxyPortSivp",
-            "mangledName": "$s18IronchipCommonsIos5ProxyV9proxyPortSivp",
+            "usr": "s:18IronchipCommonsIos05ProxyB0V9proxyPortSivp",
+            "mangledName": "$s18IronchipCommonsIos05ProxyB0V9proxyPortSivp",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "HasStorage",
@@ -234,8 +234,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18IronchipCommonsIos5ProxyV9proxyPortSivg",
-                "mangledName": "$s18IronchipCommonsIos5ProxyV9proxyPortSivg",
+                "usr": "s:18IronchipCommonsIos05ProxyB0V9proxyPortSivg",
+                "mangledName": "$s18IronchipCommonsIos05ProxyB0V9proxyPortSivg",
                 "moduleName": "IronchipCommonsIos",
                 "implicit": true,
                 "accessorKind": "get"
@@ -249,9 +249,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Proxy",
-                "printedName": "IronchipCommonsIos.Proxy",
-                "usr": "s:18IronchipCommonsIos5ProxyV"
+                "name": "ProxyCommons",
+                "printedName": "IronchipCommonsIos.ProxyCommons",
+                "usr": "s:18IronchipCommonsIos05ProxyB0V"
               },
               {
                 "kind": "TypeNominal",
@@ -267,8 +267,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18IronchipCommonsIos5ProxyV8proxyURL0E4PortACSS_Sitcfc",
-            "mangledName": "$s18IronchipCommonsIos5ProxyV8proxyURL0E4PortACSS_Sitcfc",
+            "usr": "s:18IronchipCommonsIos05ProxyB0V8proxyURL0E4PortACSS_Sitcfc",
+            "mangledName": "$s18IronchipCommonsIos05ProxyB0V8proxyURL0E4PortACSS_Sitcfc",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
@@ -277,8 +277,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:18IronchipCommonsIos5ProxyV",
-        "mangledName": "$s18IronchipCommonsIos5ProxyV",
+        "usr": "s:18IronchipCommonsIos05ProxyB0V",
+        "mangledName": "$s18IronchipCommonsIos05ProxyB0V",
         "moduleName": "IronchipCommonsIos",
         "declAttributes": [
           "AccessControl"
@@ -512,14 +512,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Proxy",
-                "printedName": "IronchipCommonsIos.Proxy",
-                "usr": "s:18IronchipCommonsIos5ProxyV"
+                "name": "ProxyCommons",
+                "printedName": "IronchipCommonsIos.ProxyCommons",
+                "usr": "s:18IronchipCommonsIos05ProxyB0V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18IronchipCommonsIos11RESTServiceC8setProxy18proxyConfigurationyAA0F0V_tF",
-            "mangledName": "$s18IronchipCommonsIos11RESTServiceC8setProxy18proxyConfigurationyAA0F0V_tF",
+            "usr": "s:18IronchipCommonsIos11RESTServiceC8setProxy18proxyConfigurationyAA0fB0V_tF",
+            "mangledName": "$s18IronchipCommonsIos11RESTServiceC8setProxy18proxyConfigurationyAA0fB0V_tF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"

@@ -832,14 +832,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Proxy1",
-                "printedName": "LBFraudSDKiOS.Proxy1",
-                "usr": "s:13LBFraudSDKiOS6Proxy1V"
+                "name": "Proxy",
+                "printedName": "LBFraudSDKiOS.Proxy",
+                "usr": "s:13LBFraudSDKiOS5ProxyV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13LBFraudSDKiOS0A3SDKV8setProxy18proxyConfigurationyAA6Proxy1V_tF",
-            "mangledName": "$s13LBFraudSDKiOS0A3SDKV8setProxy18proxyConfigurationyAA6Proxy1V_tF",
+            "usr": "s:13LBFraudSDKiOS0A3SDKV8setProxy18proxyConfigurationyAA0F0V_tF",
+            "mangledName": "$s13LBFraudSDKiOS0A3SDKV8setProxy18proxyConfigurationyAA0F0V_tF",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "AccessControl"
@@ -1113,8 +1113,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Proxy1",
-        "printedName": "Proxy1",
+        "name": "Proxy",
+        "printedName": "Proxy",
         "children": [
           {
             "kind": "Var",
@@ -1129,8 +1129,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13LBFraudSDKiOS6Proxy1V8proxyURLSSvp",
-            "mangledName": "$s13LBFraudSDKiOS6Proxy1V8proxyURLSSvp",
+            "usr": "s:13LBFraudSDKiOS5ProxyV8proxyURLSSvp",
+            "mangledName": "$s13LBFraudSDKiOS5ProxyV8proxyURLSSvp",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "HasStorage",
@@ -1152,8 +1152,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS6Proxy1V8proxyURLSSvg",
-                "mangledName": "$s13LBFraudSDKiOS6Proxy1V8proxyURLSSvg",
+                "usr": "s:13LBFraudSDKiOS5ProxyV8proxyURLSSvg",
+                "mangledName": "$s13LBFraudSDKiOS5ProxyV8proxyURLSSvg",
                 "moduleName": "LBFraudSDKiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1173,8 +1173,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13LBFraudSDKiOS6Proxy1V9proxyPortSivp",
-            "mangledName": "$s13LBFraudSDKiOS6Proxy1V9proxyPortSivp",
+            "usr": "s:13LBFraudSDKiOS5ProxyV9proxyPortSivp",
+            "mangledName": "$s13LBFraudSDKiOS5ProxyV9proxyPortSivp",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "HasStorage",
@@ -1196,8 +1196,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13LBFraudSDKiOS6Proxy1V9proxyPortSivg",
-                "mangledName": "$s13LBFraudSDKiOS6Proxy1V9proxyPortSivg",
+                "usr": "s:13LBFraudSDKiOS5ProxyV9proxyPortSivg",
+                "mangledName": "$s13LBFraudSDKiOS5ProxyV9proxyPortSivg",
                 "moduleName": "LBFraudSDKiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1211,9 +1211,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Proxy1",
-                "printedName": "LBFraudSDKiOS.Proxy1",
-                "usr": "s:13LBFraudSDKiOS6Proxy1V"
+                "name": "Proxy",
+                "printedName": "LBFraudSDKiOS.Proxy",
+                "usr": "s:13LBFraudSDKiOS5ProxyV"
               },
               {
                 "kind": "TypeNominal",
@@ -1229,8 +1229,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13LBFraudSDKiOS6Proxy1V8proxyURL0E4PortACSS_Sitcfc",
-            "mangledName": "$s13LBFraudSDKiOS6Proxy1V8proxyURL0E4PortACSS_Sitcfc",
+            "usr": "s:13LBFraudSDKiOS5ProxyV8proxyURL0E4PortACSS_Sitcfc",
+            "mangledName": "$s13LBFraudSDKiOS5ProxyV8proxyURL0E4PortACSS_Sitcfc",
             "moduleName": "LBFraudSDKiOS",
             "declAttributes": [
               "AccessControl"
@@ -1239,8 +1239,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:13LBFraudSDKiOS6Proxy1V",
-        "mangledName": "$s13LBFraudSDKiOS6Proxy1V",
+        "usr": "s:13LBFraudSDKiOS5ProxyV",
+        "mangledName": "$s13LBFraudSDKiOS5ProxyV",
         "moduleName": "LBFraudSDKiOS",
         "declAttributes": [
           "AccessControl"
@@ -1295,42 +1295,42 @@
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1279,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1314,
+      "offset": 1313,
       "length": 6,
       "value": "\"dev.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1258,
+      "offset": 1257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1280,
+      "offset": 1279,
       "length": 10,
       "value": "\"testing.\""
     },
     {
       "filePath": "\/Users\/josefgomezarbaizar\/Documents\/Proyectos\/lbfraud-sdk-ios\/LBFraudSDKiOS\/LBFraudSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1314,
+      "offset": 1313,
       "length": 6,
       "value": "\"dev.\""
     }
