@@ -324,6 +324,13 @@
       },
       {
         "kind": "Import",
+        "name": "CallKit",
+        "printedName": "CallKit",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -343,6 +350,20 @@
         "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "IronchipCommonsIos"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
         "declKind": "Import",
         "moduleName": "IronchipCommonsIos"
       },
@@ -933,6 +954,27 @@
               "AccessControl"
             ],
             "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConnectionType",
+            "printedName": "getConnectionType()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos13DeviceServiceC17getConnectionTypeSSyF",
+            "mangledName": "$s18IronchipCommonsIos13DeviceServiceC17getConnectionTypeSSyF",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2232,6 +2274,27 @@
             "declKind": "Func",
             "usr": "s:18IronchipCommonsIos14SignalsServiceC13isWifiEnabledSbyF",
             "mangledName": "$s18IronchipCommonsIos14SignalsServiceC13isWifiEnabledSbyF",
+            "moduleName": "IronchipCommonsIos",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isOnPhoneCall",
+            "printedName": "isOnPhoneCall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IronchipCommonsIos14SignalsServiceC13isOnPhoneCallSbyF",
+            "mangledName": "$s18IronchipCommonsIos14SignalsServiceC13isOnPhoneCallSbyF",
             "moduleName": "IronchipCommonsIos",
             "declAttributes": [
               "AccessControl"
